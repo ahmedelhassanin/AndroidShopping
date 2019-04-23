@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "814129243713",
+    "firebase_url": "https://mittchamr.firebaseio.com",
+    "project_id": "mittchamr",
+    "storage_bucket": "mittchamr.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:814129243713:android:9588176515f42ec6",
+        "android_client_info": {
+          "package_name": "com.example.engahmed.mitchamr"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "814129243713-215rcpjtu2ac2131la1it8aqqn2m03ob.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.engahmed.mitchamr",
+            "certificate_hash": "3dba7b1c8d696daea0a3a91f106a3d165dae2451"
+          }
+        },
+        {
+          "client_id": "814129243713-g5s7ps4qeea1k0bjomt65l7677idfpip.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBgvN3cdW3yCGnUJ_VqJHOkJWdLp7uY0xE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "814129243713-g5s7ps4qeea1k0bjomt65l7677idfpip.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

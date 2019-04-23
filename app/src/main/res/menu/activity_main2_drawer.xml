@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/food"
+            android:icon="@drawable/logorest"
+            android:title="Food" />
+        <item
+            android:id="@+id/clothes"
+            android:icon="@drawable/clos"
+            android:title="Clothes" />
+        <item
+            android:id="@+id/shoes"
+            android:icon="@drawable/sho"
+            android:title="shoes" />
+        <item
+            android:id="@+id/bags"
+            android:icon="@drawable/ba"
+            android:title="bags" />
+        <item
+            android:id="@+id/souvenirr"
+            android:icon="@drawable/souvee"
+            android:title="souvenir"/>
+
+        <item
+            android:id="@+id/offer"
+            android:title="offer"/>
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/Facebook"
+                android:icon="@drawable/facebook"
+                android:title="Facebook" />
+            <item android:title="About"
+                android:id="@+id/about"
+                android:icon="@drawable/abo"/>
+        </menu>
+    </item>
+
+</menu>

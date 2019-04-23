@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_shoess_dety"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.engahmed.mitchamr.shoes.shoess_dety">
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/frame">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="240dp"
+            app:srcCompat="@drawable/fgggg"
+            android:id="@+id/imageView_sh"
+            android:scaleType="fitXY" />
+
+    </FrameLayout>
+
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageView4"
+        android:layout_alignRight="@+id/textname_bag"
+        android:layout_alignEnd="@+id/textname_bag"
+        android:id="@+id/textphonesbag"
+        android:textStyle="normal|bold"
+        android:textColor="@color/cast_libraries_material_featurehighlight_outer_highlight_default_color" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@android:drawable/ic_menu_myplaces"
+        android:layout_below="@+id/imageView4"
+        android:layout_alignLeft="@+id/imageView4"
+        android:layout_alignStart="@+id/imageView4"
+        android:layout_marginTop="32dp"
+        android:id="@+id/imageView5"
+        android:scaleType="fitXY"
+        android:background="@color/cast_libraries_material_featurehighlight_outer_highlight_default_color" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imageView5"
+        android:layout_alignLeft="@+id/textphonesbag"
+        android:layout_alignStart="@+id/textphonesbag"
+        android:id="@+id/textplacesh" />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="70dp"
+        app:srcCompat="@drawable/souvee"
+        android:layout_marginLeft="40dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="38dp"
+        android:id="@+id/bag"
+        android:background="@color/cast_expanded_controller_progress_text_color"
+        android:layout_below="@+id/frame"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="73dp"
+        android:layout_marginStart="73dp"
+        android:layout_marginBottom="25dp"
+        android:id="@+id/textname_bag"
+        android:layout_above="@+id/imageView4"
+        android:layout_toRightOf="@+id/imageView5"
+        android:layout_toEndOf="@+id/imageView5"
+        android:textStyle="normal|bold"
+        android:textSize="24sp" />
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        app:srcCompat="@android:drawable/stat_sys_phone_call_forward"
+        android:id="@+id/imageView4"
+        android:layout_below="@+id/bag"
+        android:layout_alignRight="@+id/bag"
+        android:layout_alignEnd="@+id/bag" />
+
+    <ImageView
+        android:id="@+id/facebooksh"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignStart="@+id/imageView5"
+        android:layout_alignLeft="@+id/imageView5"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginBottom="207dp"
+        app:srcCompat="@drawable/facebook" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/locash"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textphonesbag"
+        android:layout_alignLeft="@+id/textphonesbag"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="46dp"
+        android:layout_marginLeft="46dp"
+        android:layout_marginBottom="555dp"
+        android:clickable="true"
+        app:elevation="24dp"
+        app:fabSize="normal"
+        app:srcCompat="@android:drawable/ic_menu_mylocation" />
+
+
+
+
+
+
+
+
+
+
+</RelativeLayout>

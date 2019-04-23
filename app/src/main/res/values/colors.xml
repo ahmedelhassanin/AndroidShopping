@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ff4081</color>
+    <color name="colorPrimaryDark">#ff4081</color>
+    <color name="colorAccent">#ff4081</color>
+    <color name="icons">#6e6e6e</color>
+    <color name="devider">#ebebeb</color>
+    <color name="text">#223038</color>
+    <color name="subtext">#a3a4a7</color>
+    <color name="orange">#fb8c00 </color>
+    <color name="blue">#3F51B5</color>
+</resources>
